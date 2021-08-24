@@ -4,7 +4,7 @@ const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const { log } = require("npm-colorlog");
 puppeteer.use(StealthPlugin());
 //puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
-
+let countryInfos = "";
 //true for hidden Chromium
 puppeteer.launch({
     headless: true,
@@ -58,22 +58,26 @@ puppeteer.launch({
         const powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
         const members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
         const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr"), element => element.textContent));
+        //document.querySelectorAll("#bodyrelations>tr")[0].textContent
+        //"\n\n\nGambie\n\n\nAllié\n"
 
 
+        console.log(relations)
         let level = claims[2];
         let power = powers[1].split("/");
         let claim = claims[4];
         power = parseInt(power[0], 10)
         claim = parseInt(claim, 10)
 
-        log("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power, " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "\n" + "Relations:" + relations, 'red', 'black')
-        let countryInfos = ("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power, " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "\n" + "Relations:" + relations, 'red', 'black')
-        const fs = require('fs');
-        fs.writeFile('countryInfos.txt', countryInfos, function(err) {
-            if (err) throw err;
-            console.log('Fichier créé !');
-        });
+        log("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Relations:" + relations, 'red', 'black')
+        countryInfos += "n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Relations:" + relations;
+
     }
+    const fs = require('fs');
+    fs.writeFile('countryInfos.txt', countryInfos, function(err) {
+        if (err) throw err;
+        console.log('Fichier créé !');
+    });
     await browser.close();
     console.log("✨All done, check the console✨");
 })

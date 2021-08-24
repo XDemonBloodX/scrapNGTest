@@ -9,10 +9,9 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@antiadmin/anticaptchaofficial": "^1.0.13",
-        "captcha-solver": "0.0.6",
         "dateformat": "^4.5.1",
         "form-data": "^3.0.0",
+        "fs": "0.0.1-security",
         "node-schedule": "^2.0.0",
         "npm-colorlog": "^1.0.0",
         "puppeteer": "7.0.1",
