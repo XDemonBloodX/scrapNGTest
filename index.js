@@ -7,8 +7,8 @@ puppeteer.use(StealthPlugin());
 let countryInfos = "";
 //true for hidden Chromium
 puppeteer.launch({
-    headless: true,
-    timeout: 120000,
+    headless: false,
+    timeout: 10 * 60 * 1000,
     args: [
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36",
         "--no-sandbox",
@@ -26,7 +26,7 @@ puppeteer.launch({
 
     await page.goto('https://nationsglory.fr/server/yellow/countries')
     await page
-        .waitForSelector('.lead')
+        .waitForSelector('.lead', { timeout: 10 * 60 * 1000 })
         .then(() => console.log('load '));
     await page._client.send("Page.stopLoading");
     await page.waitForTimeout(900);
@@ -48,16 +48,16 @@ puppeteer.launch({
         let pay = links[i].substring(37, links[i].length)
 
         await page.goto(links[i])
-        await page.waitForTimeout(900);
         await page
-            .waitForSelector('.section-title')
+            .waitForSelector('.section-title', { timeout: 5 * 60 * 1000 })
             .then(() => console.log('load country'));
+        await page.waitForTimeout(500);
         page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
 
         const claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
         const powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
         const members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
-        const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr"), element => element.textContent));
+        const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr"), element => list.map((element) => element.replace("\n", ""))));
         //document.querySelectorAll("#bodyrelations>tr")[0].textContent
         //"\n\n\nGambie\n\n\nAllié\n"
 

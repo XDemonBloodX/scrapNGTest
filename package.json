@@ -16,7 +16,6 @@
         "npm-colorlog": "^1.0.0",
         "puppeteer": "7.0.1",
         "puppeteer-extra": "3.1.16",
-        "puppeteer-extra-plugin-recaptcha": "3.3.2",
         "puppeteer-extra-plugin-stealth": "2.7.4"
     }
 }
