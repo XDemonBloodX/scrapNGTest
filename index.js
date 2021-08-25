@@ -1,13 +1,12 @@
 const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
-//const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker')
 const { log } = require("npm-colorlog");
 puppeteer.use(StealthPlugin());
-//puppeteer.use(AdblockerPlugin({ blockTrackers: true }))
-let countryInfos = "";
+
+
 //true for hidden Chromium
 puppeteer.launch({
-    headless: false,
+    headless: true,
     timeout: 10 * 60 * 1000,
     args: [
         "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36",
@@ -24,17 +23,28 @@ puppeteer.launch({
     const page = await browser.newPage();
     //    await page.setViewport({ width: 800, height: 600 })
 
+
+
+    const fs = require('fs').promises;
+    const cookiesString = await fs.readFile('./cookies.json');
+    const cookies = JSON.parse(cookiesString);
+    await page.setCookie(...cookies);
+
+    let countryInfos = "";
     await page.goto('https://nationsglory.fr/server/yellow/countries')
     await page
         .waitForSelector('.lead', { timeout: 10 * 60 * 1000 })
         .then(() => console.log('load '));
-    await page._client.send("Page.stopLoading");
-    await page.waitForTimeout(900);
-
+    await page.waitForTimeout(2000);
+    /* const cookies = await page.cookies();
+     await fs.writeFile('./cookies.json', JSON.stringify(cookies, null, 2));*/
     //await page.waitForTimeout(21000)
+
     await page.screenshot({ path: 'botTester.png' });
 
-
+    await page
+        .waitForSelector('tr > td > a', { timeout: 10 * 60 * 1000 })
+        .then(() => console.log('load countries list'));
     const hrefs = await page.$$eval("tr > td > a", (list) => list.map((elm) => elm.href));
     const links = [];
 
@@ -51,8 +61,9 @@ puppeteer.launch({
         await page
             .waitForSelector('.section-title', { timeout: 5 * 60 * 1000 })
             .then(() => console.log('load country'));
-        await page.waitForTimeout(500);
+        await page.waitForTimeout(1000);
         page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
+
 
         const claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
         const powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
@@ -73,7 +84,6 @@ puppeteer.launch({
         countryInfos += "n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Relations:" + relations;
 
     }
-    const fs = require('fs');
     fs.writeFile('countryInfos.txt', countryInfos, function(err) {
         if (err) throw err;
         console.log('Fichier créé !');
