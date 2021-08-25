@@ -46,7 +46,7 @@ puppeteer.launch({
         .waitForSelector('.table-responsive > .table >tbody>tr > td > a', { timeout: 10 * 60 * 1000 })
         .then(() => console.log('load countries list'));
     await page.waitForTimeout(2000);
-    const hrefs = await page.$$eval("tr > td > a", (list) => list.map((elm) => elm.href));
+    const hrefs = await page.$$eval(".table-responsive > .table >tbody>tr > td > a", (list) => list.map((elm) => elm.href));
     const links = [];
 
     hrefs.forEach(hf => {
@@ -54,7 +54,7 @@ puppeteer.launch({
             links.push(hf)
         }
     });
-    const linkLength = links.length / 2;
+    const linkLength = links.length;
     for (let i = 0; i < linkLength; i++) {
         let pay = links[i].substring(37, links[i].length)
 
