@@ -43,8 +43,9 @@ puppeteer.launch({
     await page.screenshot({ path: 'botTester.png' });
 
     await page
-        .waitForSelector('tr > td > a', { timeout: 10 * 60 * 1000 })
+        .waitForSelector('.table-responsive > .table >tbody>tr > td > a', { timeout: 10 * 60 * 1000 })
         .then(() => console.log('load countries list'));
+    await page.waitForTimeout(2000);
     const hrefs = await page.$$eval("tr > td > a", (list) => list.map((elm) => elm.href));
     const links = [];
 
@@ -68,7 +69,7 @@ puppeteer.launch({
         const claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
         const powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
         const members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
-        const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr"), element => list.map((element) => element.replace("\n", ""))));
+        const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr>.pl-4>a>div>span"), element => list.map((element) => element.replace("\n", ""))));
         //document.querySelectorAll("#bodyrelations>tr")[0].textContent
         //"\n\n\nGambie\n\n\nAllié\n"
 
