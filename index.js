@@ -2,7 +2,17 @@ const puppeteer = require('puppeteer-extra');
 const StealthPlugin = require('puppeteer-extra-plugin-stealth');
 const { log } = require("npm-colorlog");
 puppeteer.use(StealthPlugin());
+const axios = require('axios');
 
+const serverColors = [];
+axios.get('http://127.0.0.1:3000/api/ServerColor')
+    .then(function(response) {
+        // handle success
+        const obj = response.data;
+        obj.forEach(element => {
+            serverColors.push(element.color);
+        });
+    })
 
 //true for hidden Chromium
 puppeteer.launch({
@@ -21,74 +31,113 @@ puppeteer.launch({
 }).then(async browser => {
     console.log('✷ Running browser..')
     const page = await browser.newPage();
-    //    await page.setViewport({ width: 800, height: 600 })
-
-
 
     const fs = require('fs').promises;
-    const cookiesString = await fs.readFile('./cookies.json');
-    const cookies = JSON.parse(cookiesString);
-    await page.setCookie(...cookies);
+    for (let j = 0; j < serverColors.length; j++) {
 
-    let countryInfos = "";
-    await page.goto('https://nationsglory.fr/server/yellow/countries')
-    await page
-        .waitForSelector('.lead', { timeout: 10 * 60 * 1000 })
-        .then(() => console.log('load '));
-    await page.waitForTimeout(2000);
-    /* const cookies = await page.cookies();
-     await fs.writeFile('./cookies.json', JSON.stringify(cookies, null, 2));*/
-    //await page.waitForTimeout(21000)
 
-    await page.screenshot({ path: 'botTester.png' });
-
-    await page
-        .waitForSelector('.table-responsive > .table >tbody>tr > td > a', { timeout: 10 * 60 * 1000 })
-        .then(() => console.log('load countries list'));
-    await page.waitForTimeout(2000);
-    const hrefs = await page.$$eval(".table-responsive > .table >tbody>tr > td > a", (list) => list.map((elm) => elm.href));
-    const links = [];
-
-    hrefs.forEach(hf => {
-        if (hf.startsWith('https://nationsglory.fr/country/yellow/') == true) {
-            links.push(hf)
-        }
-    });
-    const linkLength = links.length;
-    for (let i = 0; i < linkLength; i++) {
-        let pay = links[i].substring(37, links[i].length)
-
-        await page.goto(links[i])
+        let countryInfos = "";
+        let serverColor = serverColors[j];
+        log(serverColor, "green")
+        await page.goto('https://nationsglory.fr/server/' + serverColor + '/countries')
         await page
-            .waitForSelector('.section-title', { timeout: 5 * 60 * 1000 })
-            .then(() => console.log('load country'));
-        await page.waitForTimeout(1000);
-        page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
+            .waitForSelector('.lead', { timeout: 10 * 60 * 1000 })
+            .then(() => console.log('load '));
+        await page.waitForTimeout(2000);
+        /* const cookies = await page.cookies();
+         await fs.writeFile('./cookies.json', JSON.stringify(cookies, null, 2));*/
+        //await page.waitForTimeout(21000)
+
+        await page.screenshot({ path: 'botTester.png' });
+
+        await page
+            .waitForSelector('#tablepays>tbody>tr > td > a', { timeout: 10 * 60 * 1000 })
+            .then(() => console.log('load countries list'));
 
 
-        const claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
-        const powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
-        const members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
-        const relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr>.pl-4>a>div>span"), element => list.map((element) => element.replace("\n", ""))));
-        //document.querySelectorAll("#bodyrelations>tr")[0].textContent
-        //"\n\n\nGambie\n\n\nAllié\n"
+        await page.waitForTimeout(2000);
+        let hrefs = await page.$$eval(".table-responsive > .table >tbody>tr > td > a", (list) => list.map((elm) => elm.href));
+        let links = [];
+        hrefs.forEach(hf => {
+            if (hf.startsWith('https://nationsglory.fr/country/' + serverColor + '/') == true) {
+                links.push(hf)
+            }
+        });
+        let linkLength = (links.length) / 2;
+        console.log(linkLength)
+        for (let i = 0; i < linkLength; i++) {
+            let pay = links[i].substring(37, links[i].length)
+
+            await page.goto(links[i])
+
+            await page
+                .waitForSelector('.section-title', { timeout: 5 * 60 * 1000 })
+                .then(() => console.log('load country'));
+            await page.waitForTimeout(700);
+            page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
 
 
-        console.log(relations)
-        let level = claims[2];
-        let power = powers[1].split("/");
-        let claim = claims[4];
-        power = parseInt(power[0], 10)
-        claim = parseInt(claim, 10)
+            let creation = await page.$eval(".d-flex > p", el => el.textContent);
+            let claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
+            let powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
+            //NOTE members a refaire comme pour relations
+            let membersType = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr"), element => element.textContent));
+            let members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
+            let relationsType = await page.evaluate(() => Array.from(document.querySelectorAll('#bodyrelations>tr'), element => element.textContent));
+            let relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr>.pl-4>a>div>span"), element => element.textContent));
+            console.log(creation)
+            let relationsAlly = [];
+            let relationsEnnemy = [];
 
-        log("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Relations:" + relations, 'red', 'black')
-        countryInfos += "n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Relations:" + relations;
+            let membersLeader = [];
+            let membersOfficier = [];
+            let membersMembre = [];
+            let membersRecrue = [];
+            await page.screenshot({ path: 'botTester.png' });
 
-    }
-    fs.writeFile('countryInfos.txt', countryInfos, function(err) {
-        if (err) throw err;
-        console.log('Fichier créé !');
-    });
+            if (members.length == membersType.length) {
+                for (let i = 0; i < membersType.length; i++) {
+                    if (membersType[i].includes("Líder")) {
+                        membersLeader.push(members[i]);
+                    } else if (membersType[i].includes("Oficial")) {
+                        membersOfficier.push(members[i]);
+                    } else if (membersType[i].includes("Miembro")) {
+                        membersOfficier.push(members[i]);
+                    } else if (membersType[i].includes("Recluta")) {
+                        membersOfficier.push(members[i]);
+                    }
+                }
+            }
+
+            if (relations.length == relationsType.length) {
+                for (let i = 0; i < relationsType.length; i++) {
+                    if (relationsType[i].includes("Allié")) {
+                        relationsAlly.push(relations[i]);
+                    } else if (relationsType[i].includes("Ennemie")) {
+                        relationsEnnemy.push(relationsEnnemy);
+                    }
+                }
+            }
+            let grade = "";
+            let level = claims[2];
+            let power = powers[1];
+            let claim = claims[4];
+            //console.log(membersLeader + membersOfficier + membersMembre + membersRecrue)
+            let countryObj = { name: pay, level: level, power: power, claim: claim, ally: relationsAlly, ennemy: relationsEnnemy, create: creation };
+
+            let memberObj = { players: members, role: grade, server: serverColor, country: pay };
+
+
+
+            log("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Allié: " + relationsAlly + "\n" + "Ennemie: " + relationsEnnemy, 'red', 'black')
+            countryInfos += "n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ Leader: " + membersLeader + " Officier: " + membersOfficier + " Membre: " + membersMembre + " Recrue " + membersRecrue + "\n" + "Allié: " + relationsAlly + "\n" + "Ennemie: " + relationsEnnemy + "\n\n\n";
+            fs.writeFile('countryInfos.txt', countryInfos, function(err) {
+                if (err) throw err;
+                console.log('Fichier créé !');
+            });
+        }
+    };
+
     await browser.close();
     console.log("✨All done, check the console✨");
 })

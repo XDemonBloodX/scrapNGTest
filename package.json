@@ -9,6 +9,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "axios": "^0.21.1",
         "dateformat": "^4.5.1",
         "form-data": "^3.0.0",
         "fs": "0.0.1-security",

@@ -1,652 +1,126 @@
-n°0w/Madagascar → ♝ level: 4 → ♚ power: 125 → ♛ claim: 26
-→ ♟Members: ti_ti06,EasyDark,killianonre,exog27,gaganard,DocHaRiBoo,poseidon
-Relations:
+n°0Lettonie → ♝ level: 0 → ♚ power: 29/31 → ♛ claim: 0
+→ Leader: Pazmap Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Vietnam
 
+n°1IlesSalomon → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
+→ Leader: Hockney_03 Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Allié
-,
 
-Inde
+n°2ArabieSaoudite → ♝ level: 0 → ♚ power: 23/26 → ♛ claim: 0
+→ Leader: SvenAndNuts Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
 
-Allié
-,
+n°3Venezuela → ♝ level: 0 → ♚ power: 10/25 → ♛ claim: 0
+→ Leader: MrRaploup Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-EmpireFrancais
 
+n°4Java → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
+→ Leader: Kiruapika Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Allié
-n°1w/Inde → ♝ level: 4 → ♚ power: 98 → ♛ claim: 44
-→ ♟Members: KobraDelta,QatarAirLines,DGZ_Gogeto,megalorf,theodani72
-Relations:
 
-Vietnam
+n°5Finlande → ♝ level: 0 → ♚ power: 32/32 → ♛ claim: 0
+→ Leader: Imasse Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
 
-Allié
-,
+n°6Cuba → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
+→ Leader: uniformparty18 Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Madagascar
 
+n°7Kenya → ♝ level: 0 → ♚ power: 14/25 → ♛ claim: 0
+→ Leader: Aya_Cola Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Allié
-,
 
-EmpireFrancais
+n°8Portugal → ♝ level: 3 → ♚ power: 48/110 → ♛ claim: 36
+→ Leader: Oxisupreme Officier: Andy_je_te_ez,Lechevaliernoir1,TOTOLEDOUDOU55 Membre:  Recrue 
+Allié: 
+Ennemie: 
 
 
-Allié
-n°2w/Tchad → ♝ level: 3 → ♚ power: 102 → ♛ claim: 62
-→ ♟Members: pika_link,Darkskill,louisdaop,seili,pika_link_bis
-Relations:n°3w/Ouganda → ♝ level: 3 → ♚ power: 124 → ♛ claim: 25
-→ ♟Members: Mrgamer487,alexleprince,AlexTerieur,aureliolb,MaGGixsushi,RamyTheKing
-Relations:n°4w/Mozambique → ♝ level: 11 → ♚ power: 107 → ♛ claim: 20
-→ ♟Members: Studioz,Valkoz,_Mozartvo_,Thomkiller_52,zussman
-Relations:
+n°9Swaziland → ♝ level: 3 → ♚ power: 117/144 → ♛ claim: 17
+→ Leader: mcf_gamer Officier: electhor,Grosbobo,ledisband,zigomatik87 Membre:  Recrue 
+Allié: NouvelleCaledonie,Turquie
+Ennemie: 
 
-Tunisie
 
+n°10Mali → ♝ level: 4 → ♚ power: 127/204 → ♛ claim: 100
+→ Leader: Zhum974 Officier: Darkshield,Eckevin,gouzy2008,BastienA,IMaxzsx_,Lightbow,LinkBest Membre:  Recrue 
+Allié: Danemark,Soudan
+Ennemie: 
 
-Allié
-,
 
-Bielorussie
+n°11Sardaigne → ♝ level: 6 → ♚ power: 188/265 → ♛ claim: 95
+→ Leader: Evolary_Zaliky Officier: Jaajembre,Saelho,CO2,DreamMaisDeWish,afferage,Antonin78,hydrof1lepilote,lorenzodu72800,Tardigrade Membre:  Recrue 
+Allié: 
+Ennemie: 
 
 
-Allié
-,
+n°12Egypte → ♝ level: 5 → ♚ power: 135/232 → ♛ claim: 74
+→ Leader: Insecto_Officiel Officier: adhene38100,almaka17_levrai,assim333,diabolococo2,FFOP,guex07,Juu83,LOCK Membre:  Recrue 
+Allié: Zimbabwe,Danemark,Timor,Bolivie
+Ennemie: 
 
-EmpireGrecque
 
+n°13Amour → ♝ level: 3 → ♚ power: 140/229 → ♛ claim: 9
+→ Leader: __pauline__ Officier: Relivio,Charles2008,darkhante,gamerinconnu_ytb,laflame3957,Polikarpov,Spitfire1936,unefoliedebaie Membre:  Recrue 
+Allié: Tchad
+Ennemie: 
 
-Allié
-n°5w/Erythree → ♝ level: 3 → ♚ power: 90 → ♛ claim: 90
-→ ♟Members: LOFFY_,Max14,XxWarOfKidxX,Nakarow
-Relations:n°6w/Birmanie → ♝ level: 3 → ♚ power: 104 → ♛ claim: 57
-→ ♟Members: Valog8577,corpir,raspool,iZiloX,laflame3957
-Relations:
 
-Laos
+n°14Danemark → ♝ level: 8 → ♚ power: 131/217 → ♛ claim: 131
+→ Leader: juniusIII Officier: adamdu68,Fiver,LastCryForHelp,Le_JOJOFAN,Naruto_676,Prime34,Wyzixx Membre:  Recrue 
+Allié: Yemen,Suede,Turquie,Kosovo,Egypte,Serbie
+Ennemie: 
 
 
-Allié
-n°7w/Philippines → ♝ level: 7 → ♚ power: 286 → ♛ claim: 54
-→ ♟Members: Wyzixx,SHARKOR,Walido,AyZotek,DUDU_,fia59,Folirex_,GhostMaster4777,juniusIII,Luxtipex22
-Relations:
+n°15Gambie → ♝ level: 4 → ♚ power: 105/165 → ♛ claim: 34
+→ Leader: Pirox_PVP Officier: Arthur5Archi,julesg572,lntag,LyolikM,mathis2021 Membre:  Recrue 
+Allié: Suede,IlesKerguelen
+Ennemie: 
 
-Gambie
 
+n°16Georgie → ♝ level: 4 → ♚ power: 9/30 → ♛ claim: 6
+→ Leader: AkabaneKarma Officier:  Membre:  Recrue 
+Allié: 
+Ennemie: 
 
-Allié
-,
 
-Ukraine
+n°17Turquie → ♝ level: 10 → ♚ power: 279/328 → ♛ claim: 151
+→ Leader: Folirex_ Officier: Atrinox,Banane40,GriZzOu,leprogrameur,Nootaria,Silvif21,theredpoloytb Membre:  Recrue 
+Allié: Grece,Danemark,Suede,Pologne,IlesSalomon,TerreDeFeu,Thailande,Tchad,Angola,Swaziland
+Ennemie: 
 
 
-Allié
-,
+n°18Benin → ♝ level: 9 → ♚ power: 380/398 → ♛ claim: 138
+→ Leader: clementDuR Officier: NIHA,HolNyr,OKANE,samsamgi123,SweeTz,Darkfield34,Loaxtagy,Salwen,SPQ Membre:  Recrue 
+Allié: Yemen,Alaska,TerreDeFeu,Tchad,Jordanie
+Ennemie: 
 
-Cameroun
 
+n°19Oman → ♝ level: 14 → ♚ power: 227/252 → ♛ claim: 63
+→ Leader: RenardBleue Officier: LidlPr4f,Black_Scorpion,Lexiro,Maximato Membre:  Recrue 
+Allié: Belgique,Zambie,IlesCanaries,Bahamas,Togo,Afghanistan,Touva,Jordanie,EmpireJamaicain,Tanzanie
+Ennemie: 
 
-Allié
-,
 
-Bresil
+n°20Hongrie → ♝ level: 7 → ♚ power: 453/808 → ♛ claim: 62
+→ Leader: gros777 Officier: raptor5463,Aikos,clintcorpIII,DrakxiTv,DrDiams,Fox_Cat,jasguth57,Licornedefeu,Loung13 Membre:  Recrue 
+Allié: 
+Ennemie: 
 
 
-Allié
-,
-
-Laos
-
-
-Allié
-n°8w/Khabarovsk → ♝ level: 3 → ♚ power: 160 → ♛ claim: 5
-→ ♟Members: nicolationsglory,00TheKing00,bora,herovideo,BroKs,dikso276,lediable8,luckyluck55,Nuage2Foudre
-Relations:n°9w/Zambie → ♝ level: 6 → ♚ power: 237 → ♛ claim: 36
-→ ♟Members: miska7,zadiglethug,flavio070607,_FoxyLePirates_,FoxyLePirates,JasonX,Le_Gamer3012,Lost_Fox26z,SwatTheFr,Tiago189
-Relations:
-
-Armenie
-
-
-Allié
-,
-
-Cameroun
-
-
-Allié
-n°10w/Bresil → ♝ level: 12 → ♚ power: 155 → ♛ claim: 90
-→ ♟Members: Kayslo,Peacelame,Arthurj14,Rominou248,Choppa,pleprot,Teki_,LaMortQuiTue
-Relations:
-
-Gambie
-
-
-Allié
-,
-
-Armenie
-
-
-Allié
-,
-
-Ukraine
-
-
-Allié
-,
-
-Cameroun
-
-
-Allié
-,
-
-IlesAndaman
-
-
-Allié
-,
-
-IlesSandwich
-
-
-Allié
-,
-
-Algerie
-
-
-Allié
-,
-
-Roumanie
-
-
-Allié
-,
-
-Philippines
-
-
-Allié
-,
-
-Sakhaline
-
-
-Allié
-n°11w/Magadan → ♝ level: 10 → ♚ power: 155 → ♛ claim: 116
-→ ♟Members: gg53,Rahyanou3,Nathan78,PsYd,ZelotePrime
-Relations:
-
-Palaos
-
-
-Allié
-,
-
-Bhoutan
-
-
-Allié
-,
-
-Java
-
-
-Allié
-,
-
-Bielorussie
-
-
-Allié
-,
-
-Bulgarie
-
-
-Allié
-,
-
-EmpireCubain
-
-
-Allié
-,
-
-EmpireGrecque
-
-
-Allié
-n°12w/PortoRico → ♝ level: 13 → ♚ power: 612 → ♛ claim: 81
-→ ♟Members: fifou_t,Anasky96,OveR_LorD_,gabriel_kasal,Lechevaliernoir1,Ptiri_yt
-Relations:
-
-StHelena
-
-
-Allié
-,
-
-Russie
-
-
-Allié
-,
-
-Panama
-
-
-Allié
-n°13w/Angola → ♝ level: 4 → ♚ power: 104 → ♛ claim: 77
-→ ♟Members: The_Tchop,Nth_,furious64,InaxWT,Tchop,Yumitsuko
-Relations:
-
-IleVictoria
-
-
-Allié
-n°14w/Armenie → ♝ level: 6 → ♚ power: 224 → ♛ claim: 42
-→ ♟Members: floetcie,lulimam,Gotaga6545,saxoo,Zalto64,adhamdugame84190,Loup006,Maxou68,SuperVillar_noir,vivi59254
-Relations:
-
-Ukraine
-
-
-Allié
-,
-
-NouvelleGuinee
-
-
-Allié
-,
-
-Chili
-
-
-Allié
-,
-
-Zambie
-
-
-Allié
-,
-
-ArabieSaoudite
-
-
-Allié
-n°15w/Corse → ♝ level: 33 → ♚ power: 297 → ♛ claim: 94
-→ ♟Members: akaMarx,AK74,CarwoZ,ClashKiller78,Dark_Sim,Darkfield,Elyaya0608,Feneris,Liri34,LoupBlanc
-Relations:
-
-Portugal
-
-
-Allié
-, 
-
-Paraguay
-
-
-Allié
-,
-
-EmpireCubain
-
-
-Allié
-,
-
-EmpireGrecque
-
-
-Allié
-n°16w/ArabieSaoudite → ♝ level: 10 → ♚ power: 260 → ♛ claim: 225
-→ ♟Members: Fyze_,obitouchiwa,patato59,freezz,Krakinoix,Yon_,Drax77,FraKou_24,JamesJockson,Kissez
-Relations:
-
-Armenie
-
-
-Allié
-,
-
-Thailande
-
-
-Allié
-,
-
-Equateur
-
-
-Allié
-,
-
-Chili
-
-
-Allié
-,
-
-Kamtchatka
-
-
-Allié
-,
-
-Congo
-
-
-Allié
-n°17w/Iamalie → ♝ level: 6 → ♚ power: 2032 → ♛ claim: 292
-→ ♟Members: Nemi
-Relations:n°18w/Islande → ♝ level: 4 → ♚ power: 186 → ♛ claim: 81
-→ ♟Members: LordGael22,monsieurWilliam,DinaTrix,GardevoirShiny,Kinadore,Romanimano35
-Relations:n°19w/IleVictoria → ♝ level: 9 → ♚ power: 116 → ♛ claim: 116
-→ ♟Members: mickou10,Abdezah,BahCherchPasEnft,gueymo,Mal999,maxlolpro2322,PoissonCrue,saddredre,ZrbuY
-Relations:
-
-Thailande
-
-
-Allié
-,
-
-IlesAndaman
-
-
-Allié
-,
-
-Quebec
-
-
-Allié
-,
-
-Bielorussie
-
-
-Allié
-,
-
-Slovaquie
-
-
-Allié
-,
-
-Laos
-
-
-Allié
-,
-
-Angola
-
-
-Allié
-,
-
-Sakhaline
-
-
-Allié
-,
-
-EmpireCubain
-
-
-Allié
-n°20w/IleWrangel → ♝ level: 8 → ♚ power: 427 → ♛ claim: 163
-→ ♟Members: BpgamingYT,Aiglenoir338,BennyBeast,chtizeyYT,Fanch501,ilyes06,Kryh_,mrpanda74,NVP_0xa,petitbalais
-Relations:
-
-Equateur
-
-
-Allié
-,
-
-EtatsUnis
-
-
-Allié
-n°21w/Papouasie → ♝ level: 8 → ♚ power: 243 → ♛ claim: 243
-→ ♟Members: PeurViolette,BichonMaisLe2,fuzay_tag,horizon_bichon,Kirby916,legrosballon,LoiGuerrier3657,Nath1313,sebiR123,seigneur_yator
-Relations:
-
-Ukraine
-
-
-Allié
-,
-
-Equateur
-
-
-Allié
-,
-
-NouvelleGuinee
-
-
-Allié
-,
-
-Mongolie
-
-
-Allié
-,
-
-RoyaumeUni
-
-
-Allié
-n°22w/Palaos → ♝ level: 8 → ♚ power: 309 → ♛ claim: 39
-→ ♟Members: reaper_cide57,_ItachiPvP_,edernsilio,selujbuster76,UFO_Thespoot,xFurzo,LgGaMiNGe,XELA_Ytb,AyraDozo,Godlike
-Relations:
-
-Thailande
-
-
-Allié
-,
-
-IlesAndaman
-
-
-Allié
-,
-
-Magadan
-
-
-Allié
-,
-
-Bielorussie
-
-
-Allié
-,
-
-Slovaquie
-
-
-Allié
-,
-
-Bulgarie
-
-
-Allié
-,
-
-Sakhaline
-
-
-Allié
-,
-
-EmpireCubain
-
-
-Allié
-,
-
-EmpireGrecque
-
-
-Allié
-n°23w/Java → ♝ level: 25 → ♚ power: 199 → ♛ claim: 84
-→ ♟Members: _StarFusion,poli07,RACHEQUITE_TV,DidiLePetitPoney,Equoinoxxx,supertomate
-Relations:
-
-Thailande
-
-
-Allié
-,
-
-Magadan
-
-
-Allié
-,
-
-IlesSandwich
-
-
-Allié
-,
-
-Allemagne
-
-
-Allié
-,
-
-Bielorussie
-
-
-Allié
-,
-
-Bulgarie
-
-
-Allié
-,
-
-Sakhaline
-
-
-Allié
-,
-
-EmpireGrecque
-
-
-Allié
-n°24w/Ukraine → ♝ level: 10 → ♚ power: 391 → ♛ claim: 42
-→ ♟Members: XalleM_,SPQ,codeman,codeman2,deuxbref,clementDuR,Dragon4,Eckevin,jtebois,Laa_La4
-Relations:
-
-Khabarovsk
-
-
-Allié
-,
-
-Gambie
-
-
-Allié
-,
-
-Armenie
-
-
-Allié
-,
-
-Nicaragua
-
-
-Allié
-,
-
-Cameroun
-
-
-Allié
-,
-
-Equateur
-
-
-Allié
-,
-
-Uruguay
-
-
-Allié
-,
-
-Allemagne
-
-
-Allié
-,
-
-IlesFalkland
-
-
-Allié
-,
-
-Philippines
-
-
-Allié
-n°25w/NouvelleCaledonie → ♝ level: 7 → ♚ power: 347 → ♛ claim: 155
-→ ♟Members: SkaiRypa,alpha910,Dranko_,OklandMirsa,BlackTek,cypri02fr,JaimeSolgud,kirito0203,NectoVl,Parzival0O8H2O
-Relations:
-
-Equateur
-
-
-Allié
-,
-
-Allemagne
-
-
-Allié
-,
-
-Laos
-
-
-Allié
-,
-
-EmpireGrecque
-
-
-Allié
