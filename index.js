@@ -5,12 +5,16 @@ puppeteer.use(StealthPlugin());
 const axios = require('axios');
 
 const serverColors = [];
+const serverColorsId = [];
+
 axios.get('http://127.0.0.1:3000/api/ServerColor')
     .then(function(response) {
         // handle success
         const obj = response.data;
+        console.log(response.data)
         obj.forEach(element => {
             serverColors.push(element.color);
+            serverColorsId.push(element.color);
         });
     })
 
@@ -33,6 +37,8 @@ puppeteer.launch({
     const page = await browser.newPage();
 
     const fs = require('fs').promises;
+
+    //NOTE LOOP list servers color
     for (let j = 0; j < serverColors.length; j++) {
 
 
@@ -123,7 +129,7 @@ puppeteer.launch({
             let power = powers[1];
             let claim = claims[4];
             //console.log(membersLeader + membersOfficier + membersMembre + membersRecrue)
-            let countryObj = { name: pay, level: level, power: power, claim: claim, ally: relationsAlly, ennemy: relationsEnnemy, create: creation };
+            let countryObj = { server: serverColorsId, name: pay, level: level, power: power, claim: claim, ally: relationsAlly, ennemy: relationsEnnemy, create: creation };
 
             let memberObj = { players: members, role: grade, server: serverColor, country: pay };
 

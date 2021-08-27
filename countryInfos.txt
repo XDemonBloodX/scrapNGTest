@@ -1,126 +1,336 @@
-n°0Lettonie → ♝ level: 0 → ♚ power: 29/31 → ♛ claim: 0
-→ Leader: Pazmap Officier:  Membre:  Recrue 
+n°0Salvador → ♝ level: 9 → ♚ power: 350/490 → ♛ claim: 50
+→ Leader: Godlike Officier: Gozifrag,Herocraft,Horiac,Lex_cerbere,monster567,TeA33,tripirates,erenSNK,thomasss19300352 Membre:  Recrue 
+Allié: CoteDivoire,Tibet,Laos,StHelena,Angola
+Ennemie: 
+
+
+n°1Somalie → ♝ level: 4 → ♚ power: 172/200 → ♛ claim: 83
+→ Leader: OOOOOOOOCCCC Officier: Foolter,Adam300134,Antho2989,Frizer_RX Membre:  Recrue 
 Allié: 
 Ennemie: 
 
 
-n°1IlesSalomon → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
-→ Leader: Hockney_03 Officier:  Membre:  Recrue 
+n°2Georgie → ♝ level: 13 → ♚ power: 442/779 → ♛ claim: 85
+→ Leader: choctymes05 Officier: vic1303,Coeurr,DalBentoGai,ededed81,Enzokilleur360,fluxy1,GeneraLUCAS,karinkito,MAFIA31 Membre:  Recrue 
 Allié: 
 Ennemie: 
 
 
-n°2ArabieSaoudite → ♝ level: 0 → ♚ power: 23/26 → ♛ claim: 0
-→ Leader: SvenAndNuts Officier:  Membre:  Recrue 
+n°3Philippines → ♝ level: 6 → ♚ power: 124/143 → ♛ claim: 168
+→ Leader: ktm_toto Officier: Poke_otaku3,AtomeGaming,Choppa,toffer Membre:  Recrue 
+Allié: Lituanie
+Ennemie: 
+
+
+n°4IlesAndaman → ♝ level: 24 → ♚ power: 76/88 → ♛ claim: 63
+→ Leader: Dezerif Officier: Parmalan Membre:  Recrue 
+Allié: Belize
+Ennemie: 
+
+
+n°5Zimbabwe → ♝ level: 1 → ♚ power: 41/85 → ♛ claim: 38
+→ Leader: Risitas Officier: mattendo,Mr_StRiKeR_TtV Membre:  Recrue 
 Allié: 
 Ennemie: 
 
 
-n°3Venezuela → ♝ level: 0 → ♚ power: 10/25 → ♛ claim: 0
-→ Leader: MrRaploup Officier:  Membre:  Recrue 
+n°6Sakhaline → ♝ level: 2 → ♚ power: 131/160 → ♛ claim: 74
+→ Leader: FrilzMineCraft Officier: carton_en_feu,arouf_le_bg,cailloux_en_bois,Mhythez,xXTRITEXXx2 Membre:  Recrue 
+Allié: Macedoine
+Ennemie: 
+
+
+n°7Bresil → ♝ level: 5 → ♚ power: 304/368 → ♛ claim: 73
+→ Leader: pamier99 Officier: Avasteur,bananaauchoco,arenaka,emeric_salut,Insecto_Officiel,shd_off Membre:  Recrue 
+Allié: CoteDivoire,Thailande,Namibie,Iran,EmpireGrecque
+Ennemie: 
+
+
+n°8Laos → ♝ level: 11 → ♚ power: 283/503 → ♛ claim: 68
+→ Leader: ItaKii Officier: FatalityGus43,clemsouslebg,cocogamer80870,cyril69,Degh,DJselyane,Ecliot50,ibraskoo_91,Juu83 Membre:  Recrue 
+Allié: EmpireEgyptien,EmpireSocotra,Thailande,Tibet,Papouasie,StHelena,Salvador,Sumatra,IlesKerguelen,EmpireChypriote
+Ennemie: 
+
+
+n°9Khabarovsk → ♝ level: 26 → ♚ power: 311/398 → ♛ claim: 167
+→ Leader: Romanimano35 Officier: alexy45,arcaique,atsa_283,BiscuitPlace587,Drapsag276,FUZEIIIJETAIME,Irizio_,JulesV,KaiserVonCochon Membre:  Recrue 
+Allié: RDCongo,Lituanie,Botswana,Kazakhstan,Danemark,Belize,Japon,France,EmpireGrecque
+Ennemie: 
+
+
+n°10Papouasie → ♝ level: 21 → ♚ power: 508/692 → ♛ claim: 172
+→ Leader: Brc_3t Officier: mokel_3awra,Gyosu_0,LeopardThuret69,clement34,clintcorpIII,Dgidgi93,G62,Guyanito,Hohn456 Membre:  Recrue 
+Allié: Macedoine,CoteDivoire,GuineeBissau,Togo,EmpireEgyptien,Libye,Java,Algerie,Laos,Bosnie
+Ennemie: 
+
+
+n°11Tibet → ♝ level: 27 → ♚ power: 437/608 → ♛ claim: 198
+→ Leader: BillizIno Officier: Monchefclebest,Paind,UnNainPerdu,amminklo_28,Andilex,artlebg71,Dekudu51,Draglis,dream34tiq Membre:  Recrue 
+Allié: CoteDivoire,BurkinaFaso,Zambie,Laos,Uruguay,StHelena,Salvador
+Ennemie: 
+
+
+n°12SaharaOccidental → ♝ level: 4 → ♚ power: 128/176 → ♛ claim: 81
+→ Leader: cookie33 Officier: lena_lpb,Ludicraft,jesuisarouf,kingYT,RYAD,Splatgameur Membre:  Recrue 
+Allié: Turkmenistan
+Ennemie: 
+
+
+n°13Kamtchatka → ♝ level: 11 → ♚ power: 322/380 → ♛ claim: 298
+→ Leader: obito__ Officier: Apoutsiak,Apoutsiak_1800,bananagun,Corentin6827,Curly_s,hisoaynon,Kiki9889,Lia7839,masterclass Membre:  Recrue 
+Allié: RDCongo,Magadan,Laos,Niger,Suriname,CoreeDuNord,TerreDeFeu,Japon,Australie
+Ennemie: 
+
+
+n°14RepubliqueTcheque → ♝ level: 4 → ♚ power: 298/376 → ♛ claim: 59
+→ Leader: ato100 Officier: _shadow_demon_,Mastr0c,PhyroGamesI,pyxigamer,SteelLoveJulien,Yarizui,Berlin77,Clement01,Jum2311 Membre:  Recrue 
+Allié: Allemagne
+Ennemie: 
+
+
+n°15Turkmenistan → ♝ level: 8 → ♚ power: 237/308 → ♛ claim: 159
+→ Leader: king21310 Officier: AYZEURr,enarmi,GUIGUIdu31__,Imrane,mica368,olivier19,Red3eard,slayzz_demon,TsuKay Membre:  Recrue 
+Allié: SaharaOccidental,Timor
+Ennemie: 
+
+
+n°16Portugal → ♝ level: 5 → ♚ power: 152/239 → ♛ claim: 113
+→ Leader: Kryoki Officier: Osilok,Anvel,Elwalker72,gotaqyt,lbl1027,OM_En_LDC,Stephane_Bern Membre:  Recrue 
+Allié: Irlande,NouvelleZelande,EmpireSardes,EmpireGrecque
+Ennemie: 
+
+
+n°17Maroc → ♝ level: 6 → ♚ power: 198/280 → ♛ claim: 198
+→ Leader: Stuffg67 Officier: akarya08,amine667,FanDeZelote,gentleman1287,gueymo,HugoDu78,Kiki9889,Lia7839,midnightelf Membre:  Recrue 
+Allié: Zambie,Niger,CoreeDuNord
+Ennemie: 
+
+
+n°18Zambie → ♝ level: 10 → ♚ power: 588/740 → ♛ claim: 74
+→ Leader: NumberKoala3994 Officier: oryon,alxboy123,mergaisseb1,OminousTooth645,PGB_gara,storm_handler,akfanfuze,Assurancetourix,Blastoise Membre:  Recrue 
+Allié: BurkinaFaso,Maroc,Tibet,Lituanie,Niger,Indonesie,Ethiopie,Kamtchatka,TerreDeFeu,Australie
+Ennemie: 
+
+
+n°19Iran → ♝ level: 7 → ♚ power: 335/370 → ♛ claim: 156
+→ Leader: Dyrox Officier: Go_NGII,GOGOtier,BebeDyrox,tessdyrox,AxelAmau985276,BEDRAGONIII,Hasetem,m4lone,raphy7777 Membre:  Recrue 
+Allié: Algerie,Bresil,EmpireGrecque
+Ennemie: 
+
+
+n°20Yemen → ♝ level: 3 → ♚ power: 246/316 → ♛ claim: 16
+→ Leader: maisilestou215 Officier: mcf_gamer,agent13,bylka,didou97310,Leepro111,Nouayti,snakedbladi,space_man007,tepabo Membre:  Recrue 
 Allié: 
 Ennemie: 
 
 
-n°4Java → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
-→ Leader: Kiruapika Officier:  Membre:  Recrue 
-Allié: 
+n°21Kirghizistan → ♝ level: 4 → ♚ power: 252/394 → ♛ claim: 25
+→ Leader: Solver_Fonb Officier: adrien63,Conustulipe81,FaZe_Poutine,israel100,Mrboulettes,narutogangs,Onyx__,pasdider,rachid0019 Membre:  Recrue 
+Allié: EmpireIlesSandwich
 Ennemie: 
 
 
-n°5Finlande → ♝ level: 0 → ♚ power: 32/32 → ♛ claim: 0
-→ Leader: Imasse Officier:  Membre:  Recrue 
-Allié: 
+n°22Gambie → ♝ level: 18 → ♚ power: 440/552 → ♛ claim: 104
+→ Leader: Dasheur Officier: poneyexper11,TiTs167,artistas,BlackTek,casabuilder,Florian2808,jesuischarlie,Lardonus,MajorNirlinda Membre:  Recrue 
+Allié: Macedoine,Kosovo,Venezuela,Suriname,Madagascar,Iakoutie,France,Irkoutsk
 Ennemie: 
 
 
-n°6Cuba → ♝ level: 0 → ♚ power: 25/25 → ♛ claim: 0
-→ Leader: uniformparty18 Officier:  Membre:  Recrue 
-Allié: 
+n°23Congo → ♝ level: 12 → ♚ power: 187/317 → ♛ claim: 165
+→ Leader: 0706Lorianolpr Officier: 1bylend,Destroyer08150,este08,exfuzito,lego22,lenoobdubigleu,Parzival0O8H2O,Tatouane69,Toinou_ptz18 Membre:  Recrue 
+Allié: CoteDivoire,EmpireIlesSandwich,Java,EmpireSocotra,IleWrangel,TerreDeFeu,Mexique
 Ennemie: 
 
 
-n°7Kenya → ♝ level: 0 → ♚ power: 14/25 → ♛ claim: 0
-→ Leader: Aya_Cola Officier:  Membre:  Recrue 
-Allié: 
+n°24Namibie → ♝ level: 9 → ♚ power: 223/288 → ♛ claim: 138
+→ Leader: XenXen594 Officier: valentin4150,azizouuuu,Cuma,FFOP,lucurcitre,Nitrocrane,NoNoEz,Sach_dLprt Membre:  Recrue 
+Allié: Mongolie,BurkinaFaso,Papouasie,Roumanie,Niger,Bresil,Panama,TerreDeFeu,Angola,Bielorussie
 Ennemie: 
 
 
-n°8Portugal → ♝ level: 3 → ♚ power: 48/110 → ♛ claim: 36
-→ Leader: Oxisupreme Officier: Andy_je_te_ez,Lechevaliernoir1,TOTOLEDOUDOU55 Membre:  Recrue 
-Allié: 
+n°25Irkoutsk → ♝ level: 20 → ♚ power: 513/679 → ♛ claim: 192
+→ Leader: dieubanane Officier: atsdorian,Cerimay,cl3m55,Farid,hugo_te_ez,KakashiFTH,kirito_sao,Lique1,MrDoc Membre:  Recrue 
+Allié: Macedoine,Gambie,IlesCanaries,Suede,Laos,NouvelleGuinee,Suriname,CoreeDuNord,TerreDeFeu,Iakoutie
 Ennemie: 
 
 
-n°9Swaziland → ♝ level: 3 → ♚ power: 117/144 → ♛ claim: 17
-→ Leader: mcf_gamer Officier: electhor,Grosbobo,ledisband,zigomatik87 Membre:  Recrue 
-Allié: NouvelleCaledonie,Turquie
+n°26StHelena → ♝ level: 19 → ♚ power: 416/489 → ♛ claim: 302
+→ Leader: TaZe Officier: Cpasmoi3,darinkhon123,_KingZ,BOUBOUBG,CheatCmal,CxteManon,DominosPipza,Fuzefan5,lepro2009 Membre:  Recrue 
+Allié: CoteDivoire,EmpireEgyptien,Tibet,Laos,Botswana,Salvador,Cameroun,Chili,TerreDeFeu,Angola
 Ennemie: 
 
 
-n°10Mali → ♝ level: 4 → ♚ power: 127/204 → ♛ claim: 100
-→ Leader: Zhum974 Officier: Darkshield,Eckevin,gouzy2008,BastienA,IMaxzsx_,Lightbow,LinkBest Membre:  Recrue 
-Allié: Danemark,Soudan
+n°27Canada → ♝ level: 43 → ♚ power: 1542/2232 → ♛ claim: 1399
+→ Leader: YeSvIrLo Officier: MonTabarnack,Rukasu_Sama,_goldpvp_64,ademPGM,AlexisPR,Aridarne,Azlar,balbuzarsur,ChoubidouYTB Membre:  Recrue 
+Allié: Cuba,NouvelleCaledonie,Suriname,Danemark
 Ennemie: 
 
 
-n°11Sardaigne → ♝ level: 6 → ♚ power: 188/265 → ♛ claim: 95
-→ Leader: Evolary_Zaliky Officier: Jaajembre,Saelho,CO2,DreamMaisDeWish,afferage,Antonin78,hydrof1lepilote,lorenzodu72800,Tardigrade Membre:  Recrue 
-Allié: 
+n°28Suriname → ♝ level: 25 → ♚ power: 481/519 → ♛ claim: 123
+→ Leader: Yelloooow_ Officier: TheFrenchSkuu,J0kair,Leyz_z,zouka6,ChemsTV,Cylol,Dirt57_,erwanlgl24,killorene Membre:  Recrue 
+Allié: Macedoine,CoteDivoire,Libye,Gambie,Roumanie,Liberia,Madagascar,Canada,Kamtchatka,Irkoutsk
 Ennemie: 
 
 
-n°12Egypte → ♝ level: 5 → ♚ power: 135/232 → ♛ claim: 74
-→ Leader: Insecto_Officiel Officier: adhene38100,almaka17_levrai,assim333,diabolococo2,FFOP,guex07,Juu83,LOCK Membre:  Recrue 
-Allié: Zimbabwe,Danemark,Timor,Bolivie
+n°29Haiti → ♝ level: 26 → ♚ power: 289/409 → ♛ claim: 84
+→ Leader: Maxamort Officier: Bassem,BlAcKgOkU69,fufuNG,ghalilo45a,Haxmor,Holmax_,Le_Cafard,melitasa272,Mighty_Gamer Membre:  Recrue 
+Allié: Mongolie,Cuba,Soudan,Bahamas,Jamaique,Chili,IlesGalapagos,TerreDeFeu,Swaziland,IleMaurice
 Ennemie: 
 
 
-n°13Amour → ♝ level: 3 → ♚ power: 140/229 → ♛ claim: 9
-→ Leader: __pauline__ Officier: Relivio,Charles2008,darkhante,gamerinconnu_ytb,laflame3957,Polikarpov,Spitfire1936,unefoliedebaie Membre:  Recrue 
-Allié: Tchad
+n°30Guyane → ♝ level: 12 → ♚ power: 129/129 → ♛ claim: 86
+→ Leader: spacio6 Officier:  Membre:  Recrue 
+Allié: Belgique,Cuba,EmpireIlesSandwich,ArabieSaoudite,IlesCanaries,Irlande,Kazakhstan,Malaisie,Belize,Timor
 Ennemie: 
 
 
-n°14Danemark → ♝ level: 8 → ♚ power: 131/217 → ♛ claim: 131
-→ Leader: juniusIII Officier: adamdu68,Fiver,LastCryForHelp,Le_JOJOFAN,Naruto_676,Prime34,Wyzixx Membre:  Recrue 
-Allié: Yemen,Suede,Turquie,Kosovo,Egypte,Serbie
+n°31Equateur → ♝ level: 14 → ♚ power: 304/429 → ♛ claim: 141
+→ Leader: Noahlex Officier: GasdeMons,Bertrand2000,Bertrand2001,blackx54,DarkNoob,EmilioVenganza,enis,LeMalchanceux29,louis123456789 Membre:  Recrue 
+Allié: Mongolie,IleBolchevique,Tunisie,EmpireIlesSandwich,Honduras,Magadan,IlesCanaries,Irlande,Oman,Ethiopie
 Ennemie: 
 
 
-n°15Gambie → ♝ level: 4 → ♚ power: 105/165 → ♛ claim: 34
-→ Leader: Pirox_PVP Officier: Arthur5Archi,julesg572,lntag,LyolikM,mathis2021 Membre:  Recrue 
-Allié: Suede,IlesKerguelen
+n°32Honduras → ♝ level: 11 → ♚ power: 370/573 → ♛ claim: 152
+→ Leader: Jakzzz Officier: Awarts,Car_Hot,cocomerie,dl_Sirius_lb,Freedun,Ghost_Wolf,Jak_zzz,keke07,Maxqc01 Membre:  Recrue 
+Allié: Inde,Islande,WallisEtFutuna,Equateur,EmpireIlesSandwich,Amour,Tomsk,Chili,IlesGalapagos,Senegal
 Ennemie: 
 
 
-n°16Georgie → ♝ level: 4 → ♚ power: 9/30 → ♛ claim: 6
-→ Leader: AkabaneKarma Officier:  Membre:  Recrue 
-Allié: 
+n°33France → ♝ level: 52 → ♚ power: 952/1177 → ♛ claim: 695
+→ Leader: ChockaPicks Officier: Otane,Caegor,cFranck25,Darkyzie,Eehtomit,evanio,FoxThug,IWax0_0,Juan1T0 Membre:  Recrue 
+Allié: Macedoine,Chine,Khabarovsk,Kosovo,Gambie,Papouasie,Russie,Bulgarie,Madagascar,EmpireSardes
 Ennemie: 
 
 
-n°17Turquie → ♝ level: 10 → ♚ power: 279/328 → ♛ claim: 151
-→ Leader: Folirex_ Officier: Atrinox,Banane40,GriZzOu,leprogrameur,Nootaria,Silvif21,theredpoloytb Membre:  Recrue 
-Allié: Grece,Danemark,Suede,Pologne,IlesSalomon,TerreDeFeu,Thailande,Tchad,Angola,Swaziland
+n°34Autriche → ♝ level: 11 → ♚ power: 539/672 → ♛ claim: 270
+→ Leader: Prolaluti Officier: xtremx,coco_1910,FieldCashew4016,Flyz23r,megalorf,paner201,rafoufouille,Tim3225,aaron150700 Membre:  Recrue 
+Allié: Mongolie,Lituanie,Slovaquie,Ouzbekistan,Pologne,TerreDeFeu
 Ennemie: 
 
 
-n°18Benin → ♝ level: 9 → ♚ power: 380/398 → ♛ claim: 138
-→ Leader: clementDuR Officier: NIHA,HolNyr,OKANE,samsamgi123,SweeTz,Darkfield34,Loaxtagy,Salwen,SPQ Membre:  Recrue 
-Allié: Yemen,Alaska,TerreDeFeu,Tchad,Jordanie
+n°35Allemagne → ♝ level: 32 → ♚ power: 2263/3110 → ♛ claim: 427
+→ Leader: Stateel Officier: 10987sa,BRUNIX30YT,ShoonPvP,_MF_YT,adamruning,Aiko_le_bg,AiryMantis25205,Anaxdesforges,Antonin78 Membre:  Recrue 
+Allié: IleBolchevique,Chine,EmpireIlesSandwich,Irak,IlesCanaries,Roumanie,RepubliqueTcheque,IleWrangel,Pologne,TerreDeFeu
 Ennemie: 
 
 
-n°19Oman → ♝ level: 14 → ♚ power: 227/252 → ♛ claim: 63
-→ Leader: RenardBleue Officier: LidlPr4f,Black_Scorpion,Lexiro,Maximato Membre:  Recrue 
-Allié: Belgique,Zambie,IlesCanaries,Bahamas,Togo,Afghanistan,Touva,Jordanie,EmpireJamaicain,Tanzanie
+n°36Australie → ♝ level: 33 → ♚ power: 1243/1498 → ♛ claim: 675
+→ Leader: Pierredu999 Officier: DeliGames,Sango_Sasoriza,SkyMelkor,ByTurnade_,Daniela_12345,Rack_mc,validou06,Xeneo21,Boom_Tcha Membre:  Recrue 
+Allié: Mongolie,Groenland,GuineeBissau,Zambie,Malawi,Tadjikistan,Algerie,Italie,Laos,Kenya
 Ennemie: 
 
 
-n°20Hongrie → ♝ level: 7 → ♚ power: 453/808 → ♛ claim: 62
-→ Leader: gros777 Officier: raptor5463,Aikos,clintcorpIII,DrakxiTv,DrDiams,Fox_Cat,jasguth57,Licornedefeu,Loung13 Membre:  Recrue 
-Allié: 
+n°37CostaRica → ♝ level: 11 → ♚ power: 422/489 → ♛ claim: 186
+→ Leader: Dark_Sim Officier: calicoIII,ch_lvq_59,lucaking72,tracks,Enzotoy,footballlama,keny,Kirua_Clem,Lb_momoZ Membre:  Recrue 
+Allié: CoteDivoire,Groenland,Thailande,Irak,Algerie,Italie,Roumanie,Uruguay,CoreeDuNord,TerreDeFeu
+Ennemie: 
+
+
+n°38Suisse → ♝ level: 13 → ♚ power: 232/281 → ♛ claim: 55
+→ Leader: Arkerox_ Officier: Caligula,detrameur34,Helyos38,MissVeronica,redciza0,Yacine1512 Membre:  Recrue 
+Allié: CoteDivoire,Nicaragua,EmpireEgyptien,EmpireSocotra,Thailande,Italie,EmpireColombien,Pologne,Tasmanie,Malaisie
+Ennemie: 
+
+
+n°39Bahrein → ♝ level: 7 → ♚ power: 267/469 → ♛ claim: 18
+→ Leader: Dark_Hugo23D Officier: captainRex2005,elliotness26400,gab20199,JohnLeRed,kitsune318,lolo213,Maxbrawl,monster442,Nico200481 Membre:  Recrue 
+Allié: Macedoine,Bulgarie,Irlande,Belize,Timor,Qatar
+Ennemie: 
+
+
+n°40Inde → ♝ level: 12 → ♚ power: 364/494 → ♛ claim: 284
+→ Leader: Ilyas_kbl Officier: Heldiqs,AKSILXD,E_R_R_E_U_R_1_7,jmangeheldiqs,KilluaXD,naochi14_,raymonde12088,BN_Wass,draco2000000 Membre:  Recrue 
+Allié: IleBolchevique,Estonie,Tunisie,Malawi,Irak,Honduras,Amour,Roumanie,Ouzbekistan,Tomsk
+Ennemie: 
+
+
+n°41Mexique → ♝ level: 25 → ♚ power: 906/1330 → ♛ claim: 638
+→ Leader: Boulldogo Officier: Eclair29217,NVP_0xa,valax20085,91_jeremy_91,_Zartik_,adamdu68,Agaiinviu,azerty352,bigwess75 Membre:  Recrue 
+Allié: GuineeBissau,Nicaragua,RDCongo,EmpireIlesSandwich,EmpireSocotra,Algerie,IlesSalomon,Liberia,Panama,IleWrangel
+Ennemie: 
+
+
+n°42Pologne → ♝ level: 55 → ♚ power: 982/1095 → ♛ claim: 439
+→ Leader: victorbobafett Officier: Julien_1800,Angelim83,choucas_06,Joe_Poulet,NaKuRuX,Salade_,_Starfixbg,Agent1up,AZzen Membre:  Recrue 
+Allié: Islande,Autriche,EtatsUnis,Togo,Allemagne,Thailande,Algerie,NouvelleCaledonie,Italie,Amour
+Ennemie: 
+
+
+n°43Bielorussie → ♝ level: 18 → ♚ power: 875/1309 → ♛ claim: 573
+→ Leader: Energix_green Officier: _ELTRIX_,Adams4801,aouaouaouhhhhh,Bakugod27,Baryonix,BigLefou,BMouch,DarkMiners,Djezo_93 Membre:  Recrue 
+Allié: EmpireEgyptien,EmpireSocotra,Papouasie,Suisse,Namibie,CapVert,IlesKerguelen,EmpireChypriote,EmpireGrecque
+Ennemie: 
+
+
+n°44CentreAfrique → ♝ level: 6 → ♚ power: 144/270 → ♛ claim: 144
+→ Leader: Nakitoka15 Officier: AKSun,ElDjeee,FabriLerigolo,sellahselyan,AuraKami,lepowerenplus,lepowerenplus1,lepowerplus,nails Membre:  Recrue 
+Allié: Estonie,Roumanie,Cameroun,TerreDeFeu,Swaziland
+Ennemie: 
+
+
+n°45Islande → ♝ level: 22 → ♚ power: 879/1600 → ♛ claim: 585
+→ Leader: vivelesbreton Officier: AspirateurDyson,b2856203,BadKarma300IQ,Baleinear12,BaudelaireBae,Benji09360,Blacksider,Byonix_FN,CamiX3 Membre:  Recrue 
+Allié: Belgique,Chine,BurkinaFaso,Groenland,Estonie,Honduras,Roumanie,NouvelleZemble,Gabon,Pologne
+Ennemie: 
+
+
+n°46Belize → ♝ level: 45 → ♚ power: 1253/1357 → ♛ claim: 301
+→ Leader: DanG3r Officier: Badaboum,DoubleBang,Kalu4,LaFriteLarsenn,LaMarmotte06,marius_A,Mayzio,noktique,Ruskof Membre:  Recrue 
+Allié: Belgique,IlesAndaman,Khabarovsk,Kosovo,Libye,Amour,Irlande,Guyane,EmpireSardes,Bahrein
+Ennemie: 
+
+
+n°47Libye → ♝ level: 13 → ♚ power: 224/268 → ♛ claim: 80
+→ Leader: Prive_de_console Officier: Creepee_Man,Prive2console,Dakara,Dargand,LekleX,oxifox,Pingouin_East21,thegamer_YT Membre:  Recrue 
+Allié: IleBolchevique,Iamalie,Algerie,Papouasie,Suriname,Oman,Tomsk,Belize,TerreDeFeu,Swaziland
+Ennemie: 
+
+
+n°48Liban → ♝ level: 12 → ♚ power: 475/699 → ♛ claim: 137
+→ Leader: DarkWars2559 Officier: _DarkSalamander_,ImDefaltNF,Leesopaine,smooze,DarkCobra,JeanMichelTroll,KingPump,LeNonRoux,Mago621 Membre:  Recrue 
+Allié: Estonie,Norvege,Italie,Koweit,Pakistan,Indonesie,IleDeLaReunion,IlesGalapagos,EmpireChypriote,Bouriatie
+Ennemie: 
+
+
+n°49Mongolie → ♝ level: 33 → ♚ power: 1465/2440 → ♛ claim: 1258
+→ Leader: NabetC1812 Officier: cotreau,Leomartin6Le2,7hiver,Aceso,_971_,_maxou123_,aaron2587,Alex78220,Alex_66 Membre:  Recrue 
+Allié: Autriche,Haiti,EtatsUnis,Cuba,Equateur,Irak,ArabieSaoudite,Roumanie,Panama,Tomsk
+Ennemie: 
+
+
+n°50Liberia → ♝ level: 24 → ♚ power: 1198/1816 → ♛ claim: 685
+→ Leader: Darkholess Officier: Carapusnoir,lilikiller,Shylock,3Days_,aidadan951,aljamon,Almaterasu,amstrongold,Antimatter666 Membre:  Recrue 
+Allié: CoteDivoire,EtatsUnis,Ghana,Java,Italie,Guinee,Syrie,Suriname,Tomsk,Cameroun
+Ennemie: 
+
+
+n°51IleBolchevique → ♝ level: 14 → ♚ power: 314/427 → ♛ claim: 309
+→ Leader: FireGamer852 Officier: MagicDiams,Lego,lucas_night,AkBall,BLAUDUTH,cheval1,equus,ixxito,jean_miche12345 Membre:  Recrue 
+Allié: Inde,Estonie,Ghana,Equateur,Allemagne,Libye,Tadjikistan,Thailande,Amour,NouvelleZemble
+Ennemie: 
+
+
+n°52EmpireIlesSandwich → ♝ level: 64 → ♚ power: 2697/2947 → ♛ claim: 582
+→ Leader: ZozoBanjo16 Officier: BAPT147_YTB,55555555555555,_Speax_,_Teko,_TwisterZz_,adrinaline,AigleJauneT,anat23022222,Apoustiak2 Membre:  Recrue 
+Allié: BurkinaFaso,Estonie,EtatsUnis,Kirghizistan,Equateur,Allemagne,Norvege,Espagne,Lituanie,Honduras
+Ennemie: 
+
+
+n°53Sumatra → ♝ level: 20 → ♚ power: 702/994 → ♛ claim: 437
+→ Leader: VoitureTaxe2982 Officier: THORONDOR,xtriton2,asphaltethan,axeman,david2009,dezman849,Equoinoxxx,Ewan_Julia,Firebroze Membre:  Recrue 
+Allié: CoteDivoire,IleBolchevique,Slovaquie,Laos,NouvelleGuinee,Danemark,IlesGalapagos,Senegal,Vietnam,Taiwan
+Ennemie: 
+
+
+n°54Irlande → ♝ level: 42 → ♚ power: 566/577 → ♛ claim: 184
+→ Leader: Sarsagaz Officier: bDreamz,Fayander,Ghost77138,WarHunterZ,Hugo23D,Flavie07,Toshiro,vincentuser Membre:  Recrue 
+Allié: Belgique,Macedoine,Kosovo,Equateur,EmpireEcossais,Bulgarie,NouvelleZelande,Madagascar,Kazakhstan,Guyane
+Ennemie: 
+
+
+n°55Croatie → ♝ level: 8 → ♚ power: 334/563 → ♛ claim: 186
+→ Leader: ColaColaLight Officier: alphagame77290,c0dyr,choucroute_,grosmarou,JOJOSUS,Kassoulax,korochoco,Laura_3,LukeSkywalkerFR Membre:  Recrue 
+Allié: Hongrie
 Ennemie: 
 
 
