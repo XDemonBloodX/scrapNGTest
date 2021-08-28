@@ -154,6 +154,7 @@ async function main() {
                     })
                     .then(function(response) {
                         console.log(response.status);
+                        console.log(response.body)
                     }).catch(e => console.log(e));
 
                 //NOTE save members
