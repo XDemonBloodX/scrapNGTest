@@ -43,6 +43,7 @@ async function main() {
     }).then(async browser => {
         console.log('✷ Running browser..')
         const page = await browser.newPage();
+        await page.setViewport({ width: 1280, height: 800 })
 
         //NOTE LOOP list servers color
         for (let j = 0; j < serverColors.length; j++) {
@@ -57,8 +58,6 @@ async function main() {
                 .waitForSelector('.lead', { timeout: 10 * 60 * 1000 })
                 .then(() => console.log('load '));
             await page.waitForTimeout(2000);
-
-            //await page.screenshot({ path: 'botTester.png' });
 
             await page
                 .waitForSelector('#tablepays>tbody>tr > td > a', { timeout: 10 * 60 * 1000 })
@@ -87,7 +86,9 @@ async function main() {
                 page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
 
 
-                let creation = await page.$eval(".d-flex > p", el => el.textContent);
+                let creation = await page.evaluate(() => Array.from(document.querySelectorAll(".section>div>div>div>p"), element => element.textContent.replace("\n", " ")));
+                //creation = creation.replace("\n", " ");
+                console.log(creation[0])
                 let claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
                 let powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
                 //NOTE members a refaire comme pour relations
@@ -96,12 +97,14 @@ async function main() {
                 let relationsType = await page.evaluate(() => Array.from(document.querySelectorAll('#bodyrelations>tr'), element => element.textContent));
                 let relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr>.pl-4>a>div>span"), element => element.textContent));
 
-                let relationsAlly = [];
-                let relationsEnnemy = [];
-
+                let relationsAlly = "";
+                let relationsEnnemy = "";
 
                 let memberType = []
-                await page.screenshot({ path: 'botTester.png' });
+                await page.screenshot({
+                    path: './countryImg/' + pay + 'tester.png',
+                    clip: { x: 380, y: 650, width: 800, height: 350 }
+                });
 
                 if (members.length == membersType.length) {
                     for (let i = 0; i < membersType.length; i++) {
@@ -120,9 +123,9 @@ async function main() {
                 if (relations.length == relationsType.length) {
                     for (let i = 0; i < relationsType.length; i++) {
                         if (relationsType[i].includes("Allié")) {
-                            relationsAlly.push(relations[i]);
+                            relationsAlly += relations[i] + ", ";
                         } else if (relationsType[i].includes("Ennemie")) {
-                            relationsEnnemy.push(relationsEnnemy);
+                            relationsEnnemy += relationsEnnemy[i] + ", ";
                         }
                     }
                 }
@@ -131,42 +134,49 @@ async function main() {
                 let power = powers[1];
                 let claim = claims[4];
 
-                console.log(serverColorId)
-                    //log("n°" + i + pay + " → ♝ level: " + level + " → ♚ power: " + power + " → ♛ claim: " + claim + "\n" + "→ ♟Members: " + members + "\n" + "Allié: " + relationsAlly + "\n" + "Ennemie: " + relationsEnnemy, 'red', 'black')
                 let country = ({
                     name: pay,
+                    createBy: creation[0],
                     level: level,
                     mmr: mmr,
                     power: power,
                     claims: claim,
-                    ally: "relationsAlly",
-                    ennemies: "relationsEnnemy",
+                    ally: relationsAlly,
+                    ennemies: relationsEnnemy,
                     serverColor: serverColorId
                 });
 
-                //NOTE save country
-                console.table(country)
-                    //console.log(token)
-                    //NOTE api not secure
-                axios.post('http://127.0.0.1:3000/api/country', {
-                        // headers: { "Authorization": `Bearer ${token}` },
-                        country
-                    })
-                    .then(function(response) {
-                        console.log(response.status);
-                        console.log(response.body)
-                    }).catch(e => console.log(e));
 
-                //NOTE save members
-                /* axios.post('http://127.0.0.1:3000/api/country', {
-                         headers: {
-                             Authorization: 'Bearer ' + token
-                         },
-                         country
-                     })
-                     .then(function(response) {
-                         console.log(response.status);
-                     }).catch(e => console.log("failed"))*/
+                const lo = await axios.get('http://127.0.0.1:3000/api/jwt', {
+                    headers: {
+                        Authorization: 'Bearer ' + token
+                    }
+                })
+                console.log(lo.data)
+
+                //NOTE save country
+                //console.table(country)
+                //console.log(token)
+                //NOTE api not secure
+                const countryResponse = await axios.post('http://127.0.0.1:3000/api/country', {
+
+                    headers: {
+                        "Authorization:": 'Bearer ' + token,
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    country
+                })
+                console.log(countryResponse)
+                    //NOTE save members
+                    /* axios.post('http://127.0.0.1:3000/api/country', {
+                             headers: {
+                                 Authorization: 'Bearer ' + token
+                             },
+                             country
+                         })
+                         .then(function(response) {
+                             console.log(response.status);
+                         }).catch(e => console.log("failed"))*/
             }
         };
 
