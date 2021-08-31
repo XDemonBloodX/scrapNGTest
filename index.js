@@ -47,6 +47,7 @@ async function main() {
 
         //NOTE LOOP list servers color
         for (let j = 0; j < serverColors.length; j++) {
+            // for (let j = 0; j < 1; j++) {
 
 
             let serverColor = serverColors[j];
@@ -73,27 +74,26 @@ async function main() {
                 }
             });
             let linkLength = (links.length) / 2;
-            console.log(linkLength)
             for (let i = 0; i < linkLength; i++) {
-                let pay = links[i].substring(37, links[i].length)
 
+                //NOTE substring link for get country begin index color + color lenth + 1 because / and finish by max
+                let pay = links[i].substring(links[i].indexOf(serverColor) + serverColor.length + 1, links[i].length)
                 await page.goto(links[i])
-
+                log(serverColor + "\t" + pay, "white", "red")
                 await page
-                    .waitForSelector('.section-title', { timeout: 5 * 60 * 1000 })
-                    .then(() => console.log('load country'));
-                await page.waitForTimeout(700);
+                    .waitForSelector('.section-title', { timeout: 50 * 60 * 1000 })
+                    .then(() => log('load country', "grey", "white"));
                 page.waitForSelector('#bodymembers>tr>.pl-4 > a > div');
 
 
                 let creation = await page.evaluate(() => Array.from(document.querySelectorAll(".section>div>div>div>p"), element => element.textContent.replace("\n", " ")));
                 //creation = creation.replace("\n", " ");
-                console.log(creation[0])
+
                 let claims = await page.evaluate(() => Array.from(document.querySelectorAll(".mb-2"), element => element.textContent));
                 let powers = await page.evaluate(() => Array.from(document.querySelectorAll(".col-md-3 > .mb-2"), element => element.textContent));
                 //NOTE members a refaire comme pour relations
-                let membersType = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr"), element => element.textContent));
-                let members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent));
+                let membersType = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr"), element => element.textContent.replace("\n", " ")));
+                let members = await page.evaluate(() => Array.from(document.querySelectorAll("#bodymembers>tr>.pl-4 > a > div"), element => element.textContent.replace("\n", " ")));
                 let relationsType = await page.evaluate(() => Array.from(document.querySelectorAll('#bodyrelations>tr'), element => element.textContent));
                 let relations = await page.evaluate(() => Array.from(document.querySelectorAll("#bodyrelations>tr>.pl-4>a>div>span"), element => element.textContent));
 
@@ -101,10 +101,16 @@ async function main() {
                 let relationsEnnemy = "";
 
                 let memberType = []
-                await page.screenshot({
-                    path: './countryImg/' + pay + 'tester.png',
-                    clip: { x: 380, y: 650, width: 800, height: 350 }
-                });
+
+                try {
+                    await page.screenshot({
+                        path: './countryImg/' + serverColor + pay + '-tester.png',
+                        clip: { x: 380, y: 650, width: 800, height: 360 }
+                    });
+                } catch (error) {
+                    console.log(error)
+                }
+
 
                 if (members.length == membersType.length) {
                     for (let i = 0; i < membersType.length; i++) {
@@ -152,31 +158,42 @@ async function main() {
                         Authorization: 'Bearer ' + token
                     }
                 })
-                console.log(lo.data)
+                log("Token " + lo.data.tokenValid, "red", "white")
 
-                //NOTE save country
-                //console.table(country)
-                //console.log(token)
                 //NOTE api not secure
-                const countryResponse = await axios.post('http://127.0.0.1:3000/api/country', {
+                const headers = {
+                    withCredentials: true,
+                    headers: { 'Authorization': 'Bearer ' + token }
+                }
 
-                    headers: {
-                        "Authorization:": 'Bearer ' + token,
-                        'Content-Type': 'application/x-www-form-urlencoded'
-                    },
-                    country
-                })
-                console.log(countryResponse)
-                    //NOTE save members
-                    /* axios.post('http://127.0.0.1:3000/api/country', {
-                             headers: {
-                                 Authorization: 'Bearer ' + token
-                             },
-                             country
-                         })
-                         .then(function(response) {
-                             console.log(response.status);
-                         }).catch(e => console.log("failed"))*/
+                axios.post('http://127.0.0.1:3000/api/country', country, headers)
+                    .then(function(response) {
+                        log("api receive country: " + response.data.name, "green", "white")
+                    })
+                    .catch(function(error) {
+                        console.log(error)
+                    });
+
+
+                //NOTE save all data members in country
+                for (let k = 0; k < members.length; k++) {
+                    //set member
+                    let memberData = ({
+                        pseudo: members[k],
+                        role: memberType[k],
+                        country: response.data._id,
+                        serverColor: serverColorId
+                    });
+                    /*
+                                        //NOTE save players
+                                        axios.post('http://127.0.0.1:3000/api/player', memberData, headers)
+                                            .then(function(response) {
+                                                log("api receive member: " + response.data, "green", "white")
+                                            })
+                                            .catch(function(error) {
+                                                console.log(error)
+                                            })*/
+                }
             }
         };
 
