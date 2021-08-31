@@ -139,20 +139,22 @@ async function main() {
                 let mmr = claims[3];
                 let power = powers[1];
                 let claim = claims[4];
-
+                pillage = parseInt(power.substring(0, power.indexOf("/"))) - parseInt(claim);
+                log("pillage: " + pillage, "red", "green");
                 let country = ({
                     name: pay,
                     createBy: creation[0],
                     level: level,
                     mmr: mmr,
                     power: power,
+                    pillage: pillage,
                     claims: claim,
                     ally: relationsAlly,
                     ennemies: relationsEnnemy,
                     serverColor: serverColorId
                 });
 
-
+                console.log(country)
                 const lo = await axios.get('http://127.0.0.1:3000/api/jwt', {
                     headers: {
                         Authorization: 'Bearer ' + token
@@ -160,39 +162,43 @@ async function main() {
                 })
                 log("Token " + lo.data.tokenValid, "red", "white")
 
-                //NOTE api not secure
-                const headers = {
-                    withCredentials: true,
-                    headers: { 'Authorization': 'Bearer ' + token }
-                }
+                async function asynchApi() {
+                    //NOTE api not secure
+                    const headers = {
+                        withCredentials: true,
+                        headers: { 'Authorization': 'Bearer ' + token }
+                    }
 
-                axios.post('http://127.0.0.1:3000/api/country', country, headers)
-                    .then(function(response) {
-                        log("api receive country: " + response.data.name, "green", "white")
-                    })
-                    .catch(function(error) {
-                        console.log(error)
-                    });
+                    let lol = await axios.post('http://127.0.0.1:3000/api/country', country, headers)
+                        .then(function(response) {
+                            log("api receive country: " + response.data.name, "green", "white")
+                        })
+                        .catch(function(error) {
+                            console.log(error)
+                        });
+                    console.log(lol)
 
+                    //NOTE save all data members in country
+                    for (let k = 0; k < members.length; k++) {
+                        //set member
+                        console.log(response.data)
+                        let memberData = ({
+                            pseudo: members[k],
+                            role: memberType[k],
+                            country: response.data._id,
+                            serverColor: serverColorId
+                        });
 
-                //NOTE save all data members in country
-                for (let k = 0; k < members.length; k++) {
-                    //set member
-                    let memberData = ({
-                        pseudo: members[k],
-                        role: memberType[k],
-                        country: response.data._id,
-                        serverColor: serverColorId
-                    });
-                    /*
-                                        //NOTE save players
-                                        axios.post('http://127.0.0.1:3000/api/player', memberData, headers)
-                                            .then(function(response) {
-                                                log("api receive member: " + response.data, "green", "white")
-                                            })
-                                            .catch(function(error) {
-                                                console.log(error)
-                                            })*/
+                        //NOTE save players
+                        axios.post('http://127.0.0.1:3000/api/player', memberData, headers)
+                            .then(function(response) {
+                                log("api receive member: " + response.data, "green", "white")
+                            })
+                            .catch(function(error) {
+                                console.log(error)
+                            })
+                    }
+                    asynchApi();
                 }
             }
         };
